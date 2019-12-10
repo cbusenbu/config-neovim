@@ -8,23 +8,25 @@ source ~/nvim/bundle/vim-plug/autoload/plug.vim
 call plug#begin('~/nvim/bundle')
 
 Plug 'airblade/vim-gitgutter'
-Plug 'b4winckler/vim-angry'
+" Plug 'b4winckler/vim-angry'
 Plug 'itchyny/lightline.vim'
-Plug 'junegunn/vim-peekaboo'
-Plug 'junegunn/fzf'
-Plug 'junegunn/fzf.vim'
+" Plug 'junegunn/vim-peekaboo'
+" Plug 'junegunn/fzf'
+" Plug 'junegunn/fzf.vim'
+Plug 'Shougo/denite.nvim'
 Plug 'morhetz/gruvbox'
-Plug 'nathanaelkane/vim-indent-guides'
+" Plug 'nathanaelkane/vim-indent-guides'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'Raimondi/delimitMate'
-Plug 'RRethy/vim-illuminate'
-Plug 'scrooloose/nerdtree'
+" Plug 'Raimondi/delimitMate'
+" Plug 'RRethy/vim-illuminate'
 Plug 'shinchu/lightline-gruvbox.vim'
-Plug 'skywind3000/asyncrun.vim'
+" Plug 'skywind3000/asyncrun.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 
 call plug#end()
 
-
+runtime vimrc/plugin_options.vimrc
+runtime vimrc/custom.vimrc
+runtime vimrc/keymaps.vimrc

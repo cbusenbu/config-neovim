@@ -5,4 +5,5 @@ Currently testing a pure NeoVim implementation with language servers, still up i
 Run the following in nvim:
 
 `:CocInstall coc-python`
-`:CocIntall coc-json`
+`:CocInstall coc-json`
+`:CocInstall coc-lists`

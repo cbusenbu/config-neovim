@@ -1,0 +1,8 @@
+{
+	"python.pythonPath":"ipython",
+	"python.jediEnabled":true,
+	"coc.preferences.rootPatterns": [".git"],
+	"list.source.grep.args": ["-folder"],
+	"list.source.grep.excludePatterns": [".ignore", "**/tags", "**/.git/**"]
+
+}
