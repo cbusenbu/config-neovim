@@ -19,6 +19,7 @@ Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'Raimondi/delimitMate'
 " Plug 'RRethy/vim-illuminate'
+Plug 'psf/black'
 Plug 'shinchu/lightline-gruvbox.vim'
 " Plug 'skywind3000/asyncrun.vim'
 Plug 'tpope/vim-fugitive'
