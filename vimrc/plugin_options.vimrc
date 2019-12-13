@@ -1,3 +1,5 @@
+set nocompatible
+
 " Gruvbox/visual section
 
 let g:gruvbox_contrast_dark = 'hard'
@@ -38,6 +40,7 @@ function! s:show_documentation()
     call CocAction('doHover')
   endif
 endfunction
+
 " vim-pencil
 filetype plugin on       " may already be in your .vimrc
 

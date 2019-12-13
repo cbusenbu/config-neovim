@@ -1,7 +1,10 @@
 {
-	"python.pythonPath":"ipython",
+	"python.pythonPath":"python",
 	"python.jediEnabled":true,
+	"python.formatting.provider": "black",
+	"python.formatting.blackPath": "C:/Miniconda3/envs/black/Scripts/black.exe",
 	"coc.preferences.rootPatterns": [".git"],
+	"coc.preferences.formatOnSaveFiletypes": ["python"],
 	"list.source.grep.args": ["-folder"],
 	"list.source.grep.excludePatterns": [".ignore", "**/tags", "**/.git/**"]
 

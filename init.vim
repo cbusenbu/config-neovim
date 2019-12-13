@@ -6,20 +6,16 @@ endif
 
 source ~/nvim/bundle/vim-plug/autoload/plug.vim
 call plug#begin('~/nvim/bundle')
-
 Plug 'airblade/vim-gitgutter'
 " Plug 'b4winckler/vim-angry'
 Plug 'itchyny/lightline.vim'
 " Plug 'junegunn/vim-peekaboo'
-" Plug 'junegunn/fzf'
-" Plug 'junegunn/fzf.vim'
 Plug 'Shougo/denite.nvim'
 Plug 'morhetz/gruvbox'
 " Plug 'nathanaelkane/vim-indent-guides'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'Raimondi/delimitMate'
 " Plug 'RRethy/vim-illuminate'
-Plug 'psf/black'
 Plug 'shinchu/lightline-gruvbox.vim'
 " Plug 'skywind3000/asyncrun.vim'
 Plug 'reedes/vim-pencil'
