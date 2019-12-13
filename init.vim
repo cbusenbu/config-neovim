@@ -22,7 +22,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'psf/black'
 Plug 'shinchu/lightline-gruvbox.vim'
 " Plug 'skywind3000/asyncrun.vim'
+Plug 'reedes/vim-pencil'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-markdown'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 
