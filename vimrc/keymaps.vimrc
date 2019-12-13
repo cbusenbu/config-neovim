@@ -76,6 +76,7 @@ nnoremap <Leader>bb :CocList buffers<CR>
 nnoremap <Leader>/p :CocList grep<CR>
 nnoremap <Leader>/ :CocList lines<CR>
 nnoremap <Leader>t :CocList tags<CR>
+nnoremap <silent> <Leader>c :CocList diagnostics<CR>
 
 nnoremap <silent> <space>/w :exe 'CocList -I --normal --input='.expand('<cword>').' words'<CR>
 nnoremap <silent> <space>/W :exe 'CocList -I --normal --input='.expand('<cword>').' grep'<CR>
