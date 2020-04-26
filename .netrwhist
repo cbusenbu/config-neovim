@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='C:/Users/chas.busenburg/repos/ebm-hedis-etc/python/ebm_hedis_etc'
+let g:netrw_dirhist_4='C:\Users\chas.busenburg\repos\ebm-hedis-etc\python'
+let g:netrw_dirhist_3='C:\Users\chas.busenburg\nvim'
+let g:netrw_dirhist_2='C:\Users\chas.busenburg\repos\ebm-hedis-etc'
+let g:netrw_dirhist_1='C:\Users\chas.busenburg\repos'
+let g:netrw_dirhist_0='C:\Users\chas.busenburg\repos\ebm-hedis-etc\scripts'
+let g:netrw_dirhist_9='C:/Users/chas.busenburg/repos/oha-incentive-measures/references/_data'
+let g:netrw_dirhist_8='C:\Users\chas.busenburg\repos\oha-incentive-measures\references'
+let g:netrw_dirhist_7='C:\users\chas.busenburg\.ssh'
+let g:netrw_dirhist_6='C:/Users/chas.busenburg/repos/ebm-hedis-etc/references'

@@ -36,3 +36,6 @@ function! SendNudgeToTerminal() range
   " Send in a nudge.  Can help trigger IPython evaluation
   call jobsend(g:my_active_terminal_job_id, "\r")
 endfunction
+
+""" Redraw on Focus gained for a buffer pane """
+autocmd FocusGained * :redraw!

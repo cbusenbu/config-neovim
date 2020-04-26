@@ -1,11 +1,15 @@
 {
 	"python.pythonPath":"python",
-	"python.jediEnabled":true,
+	"python.jediEnabled":false,
 	"python.formatting.provider": "black",
-	"python.formatting.blackPath": "C:/Miniconda3/envs/black/Scripts/black.exe",
+	"python.formatting.blackPath": "C://Miniconda3//envs//prod2019_11//Scripts//black.exe",
+	"python.autoComplete.addBrackets": true,
+	"python.linting.pylintEnabled": true,
+	"python.linting.pylintUseMinimalCheckers": false,
 	"coc.preferences.rootPatterns": [".git"],
 	"coc.preferences.formatOnSaveFiletypes": ["python"],
 	"list.source.grep.args": ["-folder"],
-	"list.source.grep.excludePatterns": [".ignore", "**/tags", "**/.git/**"]
+	"list.source.grep.excludePatterns": [".ignore", "**/tags", "**/.git/**"],
+	"coc.preferences.hoverTarget": "float"
 
 }

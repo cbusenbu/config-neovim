@@ -1,4 +1,4 @@
-set nocompatible
+set hidden
 
 " Gruvbox/visual section
 
@@ -42,13 +42,11 @@ function! s:show_documentation()
 endfunction
 
 " vim-pencil
+set nocompatible
 filetype plugin on       " may already be in your .vimrc
 
 augroup pencil
   autocmd!
   autocmd FileType markdown,mkd call pencil#init()
-                            \ | call lexical#init()
-                            \ | call litecorrect#init()
-                            \ | call textobj#quote#init()
-                            \ | call textobj#sentence#init()
+  autocmd FileType text 	call pencil#init()
 augroup END"
